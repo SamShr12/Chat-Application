@@ -1,7 +1,8 @@
-import { ChatEngine, ChatSettings } from 'react-chat-engine';
+import { ChatEngine, ChatSettingsTop, ChatSettings } from 'react-chat-engine';
 import './App.css';
 import  ChatFeed  from './components/ChatFeed';
 import LoginForm from "./components/LoginForm";
+
 
 
 const App = () => {
@@ -16,7 +17,6 @@ const App = () => {
             renderChatFeed={(chatAppProps)=><ChatFeed {...chatAppProps}/>}
             onNewMessage={() => new Audio('https://chat-engine-assets.s3.amazonaws.com/click.mp3').play()}
         />
-
     );
     
 }

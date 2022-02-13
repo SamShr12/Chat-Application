@@ -9,6 +9,10 @@
   background-color: rgb(240, 240, 240) !important;
 }
 
+.ce-chat-card{
+  margin-left: 8px !important;
+}
+
 .ce-chats-container {
   background-color: rgb(240, 240, 240) !important;
 }
@@ -16,7 +20,8 @@
 .ce-active-chat-card {
   background-color: #acc2e6 !important;
   border: 4px solid #acc2e6 !important;
-  border-radius: 0px !important;
+  border-radius: 10px 20px !important;
+  width: 100% !important;
 }
 
 .ce-chat-subtitle-text {
@@ -29,7 +34,8 @@
 
 .ce-text-input {
   border-radius: 6px !important;
-  border: 1px solid #3b2a50 !important;
+  /* border: 1px solid #3b2a50 !important; */
+  font-size: 1em;
 }
 
 .ce-primary-button {
@@ -67,7 +73,15 @@
   display: none !important;
 }
 
-/* CUSTOM FEED */
+.ce-person-title-container{
+  margin: 5px 0 !important;
+  background: inherit !important;
+}
+
+.ce-photo-title-container{
+  background: inherit !important;
+}
+/* chat feed */
 
 .chat-feed {
   height: 100%;
@@ -123,7 +137,7 @@
 .message {
   padding: 12px;
   font-size: 16px;
-  border-radius: 6px;
+  border-radius: 5px 19px !important;
   max-width: 60%;
 }
 
@@ -179,6 +193,10 @@
   font-size: 15px;
 }
 
+#ce-options-drop-down{
+  background: inherit !important;
+}
+
 .image-button {
   cursor: pointer;
   padding: 0px 12px;
@@ -218,7 +236,7 @@
 .wrapper {
   height: 100vh;
 	width: 100%;
-  background: rgb(117,84,160);
+  /* background: rgb(117,84,160); */
   background: linear-gradient(to bottom, #33ccff 0%, #9933ff 100%);
   display: flex;
   justify-content: center;
